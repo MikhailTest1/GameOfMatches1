@@ -12,8 +12,6 @@ public class GameLauncher {
 
         ad.helloWords();
         ad.firstAITurn();
-
-
         {
             boolean isTurn = true;
             while (isTurn) {
