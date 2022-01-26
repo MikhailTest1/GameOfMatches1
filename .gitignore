@@ -11,5 +11,5 @@
 *.jar
 *.war
 /out/*.*
-*.idea
-*.tmp
+/.idea
+/.tmp
