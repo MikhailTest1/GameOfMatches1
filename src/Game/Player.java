@@ -1,7 +1,8 @@
 package Game;
 
 public class Player extends Conditions{
-    public void changeAmountOfMatches(int num) {
+
+    public static void takeMatchesByPlayer(int num) {
         switch (num) {
             case 1:
                 amountOfMatches -= 1;

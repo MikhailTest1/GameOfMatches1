@@ -1,5 +1,6 @@
 package Game;
 
 public class Conditions {
-    static int amountOfMatches = 20;
+   static int amountOfMatches = 20;
+
 }

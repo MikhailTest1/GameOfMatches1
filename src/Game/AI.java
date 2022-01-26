@@ -1,12 +1,13 @@
 package Game;
 
-public class AI extends ActionDescribe {
-    public void turnAI(int num) {
-        int cake = (4 - num);
-        if (cake == 1) {
-            System.out.print("Компьютер взял " + cake + " спичку. ");
-        } else System.out.print("Компьютер взял " + cake + " спички. ");
-        amountOfMatches -= cake;
-        matchesLeft();
+public class AI {
+    public static void takeMatchesByAI(int num) {
+        int matches = (4 - num);
+        if (matches == 1) {
+            System.out.print("Компьютер взял " + matches + " спичку. ");
+        } else System.out.print("Компьютер взял " + matches + " спички. ");
+
+        Conditions.amountOfMatches -= matches;
+        ActionDescribe.printMatchesLeft();
     }
 }
